@@ -1,11 +1,12 @@
-body{
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande";
 }
 
 header {
   background-color: #262022;
   position: fixed;
   top: 0;
+  width: 99%;
 }
 
 .header-logo {
@@ -80,9 +81,36 @@ body {
   background-color: #51535c;
 }
 
+/* Body Styling */
+.buffer {
+  margin-top: 16vh;
+}
+
+#image {
+  width: 45vw;
+  height: auto;
+  margin-left: 1vh;
+  margin-top: 1vh;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+/* Footer Formatting */
 footer {
   background-color: #262022;
-
 }
 
 ul {
