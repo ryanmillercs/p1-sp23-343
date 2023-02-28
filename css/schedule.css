@@ -1,5 +1,6 @@
 body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande";
+  color: white !important;
   background-color: #6a6f71;
 }
 
@@ -154,30 +155,20 @@ body {
   }
 }
 /* Body Styling */
-.buffer {
-  margin-top: 17vh;
+
+.main-info {
+  margin-top: 20vh;
 }
 
-form {
-  margin-bottom: 10vh;
+.day {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 label {
   color: white;
-}
-
-#name-input {
-  display: inline-block;
-  margin-right: 1vh;
-}
-
-#email {
-  width: 50vw;
-}
-
-#message {
-  width: 70vw;
-  height: 50vh;
 }
 
 #btn-div {

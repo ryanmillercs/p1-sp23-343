@@ -1,5 +1,6 @@
 body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande";
+  color: white !important;
   background-color: #6a6f71;
 }
 
@@ -38,6 +39,7 @@ body {
     padding: 0;
     font-size: 0;
     border: none;
+    display: none;
   }
 
   /* The container <div> - needed to position the dropdown content */
@@ -154,30 +156,21 @@ body {
   }
 }
 /* Body Styling */
-.buffer {
-  margin-top: 17vh;
+
+.main-info {
+  margin-top: 20vh;
 }
 
-form {
-  margin-bottom: 10vh;
+.coach {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1vh;
 }
 
 label {
   color: white;
-}
-
-#name-input {
-  display: inline-block;
-  margin-right: 1vh;
-}
-
-#email {
-  width: 50vw;
-}
-
-#message {
-  width: 70vw;
-  height: 50vh;
 }
 
 #btn-div {
