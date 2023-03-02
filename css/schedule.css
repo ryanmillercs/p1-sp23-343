@@ -2,24 +2,31 @@ body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande";
   color: white !important;
   background-color: #6a6f71;
+  margin: 0px;
 }
 
 @media screen and (min-width: 601px) {
-  .website-heading {
-    width: 20vw;
+  .heading-dropdown {
+    /* width: 80vw; */
   }
+  .website-heading {
+    color: white;
+    width: 60vw;
+    margin-bottom: 0;
+  }
+
   header {
     display: flex;
     justify-content: center;
     background-color: #262022;
     position: fixed;
     top: 0;
-    width: 99%;
+    width: 100%;
   }
 
   .header-logo {
     display: inline-block;
-    /* width: 20vw; */
+    margin-left: 20vw;
   }
 
   .logo {
@@ -27,11 +34,6 @@ body {
     height: auto;
   }
 
-  .website-heading {
-    color: white;
-    width: 30vw;
-    margin-bottom: 0;
-  }
   /* Style The Dropdown Button */
   .dropbtn {
     background-color: #262022;
@@ -88,6 +90,7 @@ body {
   .website-heading {
     color: #262022;
     display: none;
+    width: 60px;
   }
 
   .header-logo {
@@ -159,7 +162,9 @@ body {
 .main-info {
   margin-top: 20vh;
 }
-
+.thing {
+  margin-left: 2vw;
+}
 .day {
   display: flex;
   flex-direction: column;
