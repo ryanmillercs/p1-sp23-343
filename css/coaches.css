@@ -11,7 +11,7 @@
   padding-top: 1vh;
 }
 
-.thing {
+.coaching-header {
   margin-left: 2vw;
 }
 
@@ -31,27 +31,3 @@ button {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande";
 }
 
-/* Footer Formatting */
-footer {
-  background-color: #262022;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-}
-
-li {
-  float: center;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}

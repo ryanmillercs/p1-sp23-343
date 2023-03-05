@@ -1,13 +1,10 @@
 body {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande";
+  font-family: "Lucida Sans", sans-serif, sans-serif, Arial, Helvetica;
   color: white !important;
   background-color: #6a6f71;
   margin: 0px;
 }
 @media screen and (min-width: 801px) {
-  .heading-dropdown {
-    /* width: 80vw; */
-  }
   .website-heading {
     color: white;
     width: 60vw;
@@ -15,6 +12,7 @@ body {
   }
 
   header {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS";
     display: flex;
     justify-content: center;
     background-color: #262022;
@@ -114,7 +112,7 @@ body {
 
   /* The container <div> - needed to position the dropdown content */
   .dropdown {
-    width: 10vh 10vw;
+    width: 10vw;
     position: relative;
     display: inline-block;
     float: right;
@@ -155,4 +153,25 @@ body {
   .dropdown:hover .dropbtn {
     background-color: #51535c;
   }
+}
+
+/* Footer Formatting */
+footer {
+  background-color: #262022;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
